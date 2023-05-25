@@ -9,6 +9,6 @@ function getFunnyImage() {
       .catch(error => {
        console.error('Error');
       });
-    
+    getFunnyImage();
   }
   
